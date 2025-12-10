@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Resume</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="resume-wrapper">
+        <div class="accent-top"></div>
+        <div class="resume-grid">
+            <aside class="sidebar">
+                <div class="photo-wrap">
+                    <img src="C:\Users\Nishanth\OneDrive\Desktop\r.jpg" alt="Profile photo of Roopa C P"
+                         class="profile-photo"
+                         style="width:120px;height:120px;border-radius:12px;object-fit:cover;">
+                </div>
+                <h1 class="name">Roopa C P</h1>
+                <p class="role">Computer Science student — web development</p>
+                <div class="sidebar-actions">
+                    <button id="printBtn" class="btn primary">Download PDF</button>
+                    <a class="btn ghost" href="biodata.html">Contact</a>
+                </div>
+                <nav class="sidebar-nav">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                </nav>
+                <p class="small muted">© 2025 — Built with HTML/CSS/JS</p>
+            </aside>
+
+            <section class="content">
+                <section id="about" class="card">
+                    <h2>About</h2>
+                    <p>I am a passionate learner exploring web technologies and machine learning, and I enjoy building small, practical projects that solve real problems and help me develop new skills.</p>
+                </section>
+
+                <section id="skills" class="card">
+                    <h2>Skills</h2>
+                    <ul class="skills-list">
+                        <li>HTML &amp; CSS</li>
+                        <li>JavaScript &amp; jQuery</li>
+                        <li>Python &amp; DSA basics</li>
+                        <li>Responsive design</li>
+                    </ul>
+                </section>
+
+                <section id="projects" class="card projects">
+                    <h2>Projects</h2>
+                    <div class="project-grid">
+                        <article class="project">
+                            <h3>Project One</h3>
+                            <p>Short description — coursework or small app. A small accessible web utility for collecting/displaying user names (form handling, validation). Tech: HTML/CSS/JS. Difficulty: Easy.</p>
+                            <a class="link" href="#">View</a>
+                        </article>
+
+                        <article class="project">
+                            <h3>Project Two</h3>
+                            <p>Short description — coursework or small app. A basic ML model using Python to predict outcomes based on a simple dataset (data preprocessing, model training). Tech: Python. Difficulty: Medium.</p>
+                            <a class="link" href="#">View</a>
+                        </article>
+
+                        <article class="project">
+                            <img src="data:image/jpeg;base64,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" alt="Simple Name project thumbnail" class="project-thumb">
+                            <h3>Simple Name</h3>
+                            <p>A small, accessible web utility called "Simple Name" — demonstrates form handling and responsive layout. Replace with your repository link or a short demo screenshot.</p>
+                            <a class="link" href="#">View</a>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="contact" class="card">
+                    <h2>Contact</h2>
+                    <p>Email: <a href="mailto:roopacp691@gmail.com">roopacp691@gmail.com</a></p>
+                </section>
+            </section>
+        </div>
+        <div class="accent-bottom"></div>
+    </main>
+
+    <script>
+        document.getElementById('printBtn').addEventListener('click', function(){
+            window.print();
+        });
+    </script>
+</body>
+</html>
